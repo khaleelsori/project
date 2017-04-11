@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <title>add</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    
+</head>
+
+<body class="container">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BIRDS</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class=""><a href="../templates/home.html">Home</a></li>
+      <!--li class=""><a href="#">Page 1</a>
+        
+      </li>
+      <li><a href="#">Page 2</a></li-->
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+
+      <li><a href="../templates/signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="../templates/login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a><span class="glyphicon glyphicon-plus"></span></a></li>
+
+    </ul>
+  </div>
+</nav>
+
+<form class="container" action="http://127.0.0.1:8080/add" method="POST">
+    <div class="form-group">
+      <label>Name Of Bird</label>
+      <input type="text" class="form-control" name="name_bird">
+    </div>
+    <div class="form-group">
+      <label>Video</label>
+      <input type="text" class="form-control" name="video_bird">
+    </div>
+
+
+    <div class="form-group">
+      <label>image</label>
+      <input type="text" class="form-control" name="image">
+    </div>
+
+    <div class="form-group">
+      <label>Information About The Bird</label>
+      <textarea class="form-control" rows="7" name="information_bird"></textarea>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-lg btn-success btn-block">Add</button>
+    </div>
+
+  </form>
+
+
+
+
+<footer class="panel-footer">
+  
+  <p class="">KHALEEL BASHER ALSORI</p>
+</footer>
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
